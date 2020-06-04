@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "storybook": "start-storybook -p 6006",
+    "dev": "start-storybook -p 6006",
     "build-storybook": "build-storybook",
     "deploy": "storybook-to-ghpages"
   },
@@ -16,6 +16,8 @@
     "@deliveryhero/armor": "^1.2.0",
     "@storybook/addon-info": "^5.3.19",
     "@storybook/storybook-deployer": "^2.8.6",
+    "react-router": "^5.2.0",
+    "react-router-dom": "^5.2.0",
     "styled-components": "^5.1.1"
   },
   "devDependencies": {
